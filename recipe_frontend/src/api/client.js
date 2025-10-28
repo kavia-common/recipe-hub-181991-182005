@@ -8,6 +8,7 @@
 import axios from 'axios';
 
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+// Tip: At runtime, you can check the resolved base URL by inspecting this constant.
 
 export const TOKEN_STORAGE_KEY = 'recipehub_token';
 export const USER_STORAGE_KEY = 'recipehub_user';
